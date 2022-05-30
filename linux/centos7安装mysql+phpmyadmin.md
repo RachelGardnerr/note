@@ -10,7 +10,7 @@
 
 rpm -qa \| grep -i mysql
 
-![](https://github.com/RachelGardnerr/note/blob/main/image/0.png){width="5.458333333333333in" height="1.5625in"}
+![](https://github.com/RachelGardnerr/note/blob/main/image/0.png)
 
 ## 2.关闭mysql服务
 
