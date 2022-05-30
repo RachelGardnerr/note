@@ -50,8 +50,7 @@ rpm -qa \| grep -i mysql
 
 没有任何提示则卸载完成
 
-![](media/image2.png){width="4.0625in" height="0.5104166666666666in"}
-
+![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%871.png)
 ## **6.安装mysql**
 
 wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
@@ -64,8 +63,7 @@ yum -y install mysql mysql-server mysql-devel
 
 安装完成再次执行得到以下信息
 
-![](media/image3.png){width="5.760416666666667in"
-height="1.5458333333333334in"}
+![]([media/image3.png](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%872.png))
 
 打开mysql服务
 
@@ -91,11 +89,10 @@ user=\'root\';(5.7版本)
 
 出现如下提示修改成功
 
-![](media/image4.png){width="5.7625in" height="0.4840277777777778in"}
-
+![]([media/image4.png](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%873.png))
 执行flush privileges;
 
-![](media/image5.png){width="4.0in" height="0.84375in"}
+![]([media/image5.png](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%874.png))
 
 退出 quit
 
@@ -113,13 +110,11 @@ mysql -u root -p 输入修改的密码成功登陆
    
    service httpd start
    
-   ![](media/image6.png){width="4.854166666666667in"
-   height="0.46875in"}
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%875.png)
    
    浏览器输入ip地址出现如下界面
    
-   ![](media/image7.png){width="5.756944444444445in"
-   height="2.9340277777777777in"}
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%876.png)
 
 # PHP
 
@@ -152,9 +147,7 @@ mysql -u root -p 输入修改的密码成功登陆
    
    浏览器输入IP地址，出现如下界面
    
-   ![](media/image8.png){width="5.767361111111111in"
-   height="2.9194444444444443in"}
-
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%877.png)
 # phpMyAdmin
 
 1. ## 先安装epel，不然安装pgpmyadmin时会出现找不到包。
@@ -180,11 +173,8 @@ mysql -u root -p 输入修改的密码成功登陆
    
    一共注释四处地方，添加两行
    
-   ![](media/image9.png){width="3.8958333333333335in"
-   height="3.7604166666666665in"}
-   
-   ![](media/image10.png){width="4.020833333333333in"
-   height="3.46875in"}
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%878.png)
+   ![]([media/image10.png](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%879.png))
    
    :wq保存退出，重启服务
    
@@ -192,8 +182,6 @@ mysql -u root -p 输入修改的密码成功登陆
    
    浏览器输入ip/phpmyadmin 进入登陆页面,输入数据库用户名密码登陆.
    
-   ![](media/image11.png){width="5.7625in"
-   height="2.4472222222222224in"}
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%8710.png)
    
-   ![](media/image12.png){width="5.7625in"
-   height="2.759027777777778in"}
+   ![](https://github.com/RachelGardnerr/note/blob/main/image/%E5%9B%BE%E7%89%8711.png)
