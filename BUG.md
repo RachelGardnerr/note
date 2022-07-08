@@ -134,3 +134,22 @@ org.junit.Test;
 命令行中输入netca回车;
 
 运行Oracle net configuration assistant,选择监听程序设置，然后按步骤进行。
+
+# centos7
+
+## 1.重启网络服务失败
+
+ Job for network.service failed because the control process exited with error code. See "systemctl status network.service" and "journalctl -xe" for details.
+                                                           [FAILED]
+
+```
+service NetworkManager stop 关闭 NetworkManger 服务
+```
+
+```
+chkconfig NetworkManager off 永久关闭 Manager网卡
+```
+
+```
+service network restart 重启network网卡
+```
