@@ -1018,8 +1018,6 @@ netstat -nltp | grep 22
 
 #### 4.10.6  crontab 系统定时任务
 
-
-
 ## 五、软件包管理
 
 ### 5.1 PRM
@@ -1086,8 +1084,6 @@ rpm -ivh RPM 包全名
 
 ![](https://raw.githubusercontent.com/RachelGardnerr/image/main/img/202208311024487.png)
 
-
-
 #### 5.2.2 YUM 的常用命令
 
 ```
@@ -1107,100 +1103,6 @@ yum [选项] [参数]
 | list         | 显示软件包信息            |
 | clean        | 清理 yum 过期的缓存       |
 | deplist      | 显示 yum 软件包的所有依赖关系  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # windows
 
